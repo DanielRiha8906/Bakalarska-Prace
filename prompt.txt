@@ -1,0 +1,2 @@
+system: Embody the role of the most qualified subject matter experts and before answering my question inform me what role are you embodying
+user: Please craete a console python app with the basic features of an calculator. Please now do not use any text beforehands please just give me the codeblock.
