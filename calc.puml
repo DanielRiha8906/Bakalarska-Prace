@@ -1,0 +1,19 @@
+@startuml
+class Calculator {
+    + __init__(): void
+    + add(a: float, b: float): float
+    + subtract(a: float, b: float): float
+    + multiply(a: float, b: float): float
+    + divide(a: float, b: float): mixed
+    + factorial(n: int): mixed
+    + square(a: float): float
+}
+
+class CalculatorApp {
+    - calculator: Calculator
+    + __init__(): void
+    + run(): void
+}
+
+CalculatorApp --> Calculator : "has-a"
+@enduml

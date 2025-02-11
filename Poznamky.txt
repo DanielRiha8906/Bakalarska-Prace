@@ -1,0 +1,13 @@
+Skrz mnoho pokusů, jde vidět, že ChatGPT má problém s poznáním správného řádku co se týče čísla. Zkoušel jsem jednoduchý prompt:
+
+
+user: I will send you a Python code block and specify a range of lines to extract. You must:
+1. Return **exactly and only** the specified lines with comments indicating the line number.
+2. Empty lines also count towards the count. 
+3. Use this format: {Change line X-Y, ```python} followed by those lines, with no additional content.
+The range is: 30–35. Return exactly these lines, including any empty lines in this range. Empty lines are part of the response and must be included.
+
+
+Zkousel jsem to na různých indexech, stále ale bez změny. Měl problém poznat co je 30-35 řádek například a šel pro 42-48 v mnoha případech. 
+
+Jak to funguje s appendováním?
